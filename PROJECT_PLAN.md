@@ -1,6 +1,6 @@
 # Cedrick Opina Portfolio - Project Plan
 
-Status: Draft for Cedrick's approval  
+Status: Version 1 foundation implemented; content and visual review pending
 Repository: `Ceddy0410/Cedrick-profolio-1`  
 Prepared: August 13, 2026
 
@@ -528,7 +528,7 @@ reference persons' private contact details.
 
 - Editable resume: `output/resume/Cedrick_Opina_Resume.docx`
 - Review PDF: `output/pdf/Cedrick_Opina_Resume.pdf`
-- Website download copy: `public/resume/cedrick-opina-resume.pdf`
+- Website download copy: `public/files/cedrick-opina-resume.pdf`
 - Profile asset: `public/images/cedrick-opina-profile-v1.png`
 
 The profile portrait uses a cream-to-sage background and can be replaced later
