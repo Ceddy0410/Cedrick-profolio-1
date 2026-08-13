@@ -315,7 +315,7 @@ final publication.
 
 ### Development
 
-- PHP, Laravel, JavaScript, HTML, CSS, React.
+- PHP, Laravel, JavaScript, HTML, CSS, React, Flutter.
 - WordPress, Elementor, Shopify.
 - C#, Java.
 
@@ -347,8 +347,9 @@ for Cedrick's professional judgment or skills.
 
 Cedrick's personal QA task-management and tracking project for Penny mobile and
 web testing. It organizes testing tasks, checks, bug reports, and completion
-history. Before publication, confirm which screenshots, repository details,
-and finance-product information are safe to show.
+history. Flutter is part of the project's implementation stack. Before
+publication, confirm which screenshots, repository details, and finance-product
+information are safe to show.
 
 ### Neko Food House POS and Inventory System
 

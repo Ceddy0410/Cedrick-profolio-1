@@ -1,7 +1,13 @@
 import { Head, Link } from '@inertiajs/react';
-import { ArrowDown, ArrowRight, ArrowUpRight, CheckCircle2 } from 'lucide-react';
+import { ArrowDown, ArrowRight, ArrowUpRight, Braces, CheckCircle2, ShieldCheck, TrendingUp } from 'lucide-react';
 import SiteLayout from '../components/SiteLayout';
 import { capabilities, experience, profile, projects } from '../data/portfolio';
+
+const capabilityIcons = {
+    Build: Braces,
+    Test: ShieldCheck,
+    Grow: TrendingUp,
+};
 
 export default function Home() {
     return (
@@ -31,13 +37,22 @@ export default function Home() {
             <section className="capability-section section-pad" id="capabilities">
                 <div className="section-heading"><p className="kicker">What I bring</p><h2>One workflow. Three ways to make a product better.</h2></div>
                 <div className="capability-grid">
-                    {capabilities.map((item) => (
-                        <article className="capability-card" key={item.label}>
-                            <div className="card-top"><span>{item.number}</span><strong>{item.label}</strong></div>
-                            <h3>{item.title}</h3><p>{item.description}</p>
-                            <div className="tag-row">{item.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>
-                        </article>
-                    ))}
+                    {capabilities.map((item) => {
+                        const Icon = capabilityIcons[item.label];
+
+                        return (
+                            <article className={`capability-card capability-card--${item.label.toLowerCase()}`} key={item.label}>
+                                <div className="capability-card__top">
+                                    <span className="capability-card__number">{item.number}</span>
+                                    <span className="capability-card__icon"><Icon size={20} strokeWidth={1.8} /></span>
+                                </div>
+                                <div className="capability-card__label"><span />{item.label}</div>
+                                <h3>{item.title}</h3>
+                                <p>{item.description}</p>
+                                <div className="capability-card__tags">{item.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>
+                            </article>
+                        );
+                    })}
                 </div>
             </section>
 

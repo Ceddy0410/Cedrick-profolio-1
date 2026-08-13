@@ -13,10 +13,10 @@ Route::get('/projects/{slug}', function (string $slug) {
         'penny-qa-desk' => [
             'slug' => 'penny-qa-desk', 'type' => 'Personal product', 'title' => 'Penny QA Desk', 'accent' => 'mint',
             'summary' => 'A focused QA workspace for planning tests, tracking issues, and keeping Penny mobile and web checks visible from start to finish.',
-            'contribution' => 'Product concept, task workflow, interface direction, and implementation.', 'tools' => ['Laravel', 'React', 'QA workflows'], 'status' => 'Built · Tested',
+            'contribution' => 'Product concept, Flutter development, task workflow, interface direction, and implementation.', 'tools' => ['Flutter', 'Laravel', 'React', 'QA workflows'], 'status' => 'Built · Tested',
             'heading' => 'Turning active testing into an organized, visible workflow.',
-            'body' => ['Penny QA Desk is my personal task-management and quality tracking project. I created it to support the testing work around Penny mobile and web experiences—not as the finance product itself.', 'The workspace gives testing activity a clear home: planned checks, active tasks, bug details, and completion history can be followed without losing context across releases.'],
-            'highlights' => ['Defined the information structure around real QA work.', 'Designed task and status flows for mobile and web testing.', 'Focused the interface on clarity, traceability, and everyday use.'],
+            'body' => ['Penny QA Desk is my personal task-management and quality tracking project. I created it to support the testing work around Penny mobile and web experiences—not as the finance product itself.', 'Flutter was part of the implementation stack. The workspace gives testing activity a clear home: planned checks, active tasks, bug details, and completion history can be followed without losing context across releases.'],
+            'highlights' => ['Implemented parts of the product experience with Flutter.', 'Defined the information structure around real QA work.', 'Designed task and status flows for mobile and web testing.', 'Focused the interface on clarity, traceability, and everyday use.'],
         ],
         'neko-food-house' => [
             'slug' => 'neko-food-house', 'type' => 'Team capstone', 'title' => 'Neko Food House', 'accent' => 'cream',

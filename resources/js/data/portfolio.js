@@ -38,8 +38,8 @@ export const projects = [
         type: 'Personal product',
         title: 'Penny QA Desk',
         summary: 'A focused QA workspace for planning tests, tracking issues, and keeping Penny mobile and web checks visible from start to finish.',
-        contribution: 'Product concept, task workflow, interface direction, and implementation.',
-        tools: ['Laravel', 'React', 'QA workflows'],
+        contribution: 'Product concept, Flutter development, task workflow, interface direction, and implementation.',
+        tools: ['Flutter', 'Laravel', 'React', 'QA workflows'],
         accent: 'mint',
         status: 'Built · Tested',
     },
@@ -81,7 +81,7 @@ export const experience = [
 ];
 
 export const skillGroups = [
-    ['Development', 'PHP · Laravel · JavaScript · React · HTML · CSS · WordPress · Elementor · Shopify · C# · Java'],
+    ['Development', 'PHP · Laravel · JavaScript · React · Flutter · HTML · CSS · WordPress · Elementor · Shopify · C# · Java'],
     ['Quality', 'Manual · Functional · Regression · Responsive · UI/UX · Test cases · Bug reporting · Maestro · Playwright · Jira'],
     ['SEO & support', 'Semrush · Technical SEO · On-page SEO · Keyword research · Site audits · Troubleshooting · Client support'],
     ['Tools & data', 'MySQL · Supabase · XAMPP · Git · GitHub · Canva · Figma · Photoshop · Notion · AI-assisted workflows'],
