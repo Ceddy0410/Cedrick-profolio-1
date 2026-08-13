@@ -248,41 +248,43 @@ sites.
 
 Only verified and approved claims will be published.
 
-### HeyPenny - Quality Assurance
+### HeyPenny - Quality Assurance Tester (Part-time)
 
-User-provided responsibilities:
+**November 2025 to present**
 
-- Mobile application testing.
-- Web application testing.
-- UI/UX and usability testing.
-- Test automation creation with Maestro.
-
-Dates, formal job title, and preferred company styling still need confirmation.
+- Test the Penny finance mobile application and web platform.
+- Perform functional, regression, responsive, UI/UX, and usability testing.
+- Create repeatable automation flows with Maestro.
+- Document defects with reproducible steps and maintain structured test
+  coverage.
 
 ### GodesQ Digital Marketing Services
 
-**Quality Analyst / Website Developer Intern - January to May 2025**
+**Website Developer, QA & SEO Specialist - June 2025 to present**
 
-- Tested client websites for functional, responsive, UI/UX, and performance
-  issues.
-- Supported website development using WordPress, Elementor, and Shopify.
-- Resume-listed projects include Go To SHOUT, Philippine Hop-On Hop-Off,
-  ProAge Beauty, SM Home, and Maria and I.
+- Started part-time on June 1, 2025.
+- Transitioned to full-time employment on July 30, 2025.
+- Develop and maintain client websites using WordPress and Elementor, support
+  Shopify updates, and troubleshoot frontend issues.
+- Perform functional, responsive, UI/UX, and performance QA.
+- Support technical and on-page SEO with Semrush, including site audits,
+  keyword checks, issue diagnosis, and content recommendations.
+- Handle website and support work for Bemunchie as a GodesQ client.
+- Perform web development and SEO work for Freedom Family Investments as a
+  GodesQ client.
 
-**Quality Analyst / SEO - June 2025 to date requiring confirmation**
+Bemunchie and Freedom Family Investments must be presented as client work
+completed through GodesQ, not as separate employment.
 
-- Continued QA work for websites and mobile experiences.
-- Supported technical and keyword-focused SEO work.
-- Used Semrush for site and keyword review.
-- Resume-listed QA work includes Go To SHOUT, Synergy, ProAge Beauty, Maria and
-  I, and Bemunchie.
-- Resume-listed SEO work includes ProAge Beauty and Go To SHOUT.
+### Selected client work through GodesQ
 
-### Bemunchie - Technical Support
+- Maria and I: <https://mariaandi.com/>
+- Go To SHOUT: <https://gotoshout.com/>
+- Freedom Family Investments: <https://freedomfamilyinvestments.com/>
+- ProAge Beauty: <https://proagebeauty.ph/>
 
-User-provided responsibility: assisted with diagnosing and fixing client
-website issues. Employment relationship, dates, and whether this work was
-performed through GodesQ need confirmation.
+The case studies must identify Cedrick's contribution without implying sole
+ownership of an agency or team project.
 
 ## 9. Education, Awards, and Certifications
 
@@ -343,9 +345,10 @@ for Cedrick's professional judgment or skills.
 
 ### Penny QA Desk
 
-A QA workspace for organizing test activity, checks, bug reports, and quality
-workflows. Before publication, document Cedrick's exact role, technologies,
-public repository status, screenshots, and which information is safe to show.
+Cedrick's personal QA task-management and tracking project for Penny mobile and
+web testing. It organizes testing tasks, checks, bug reports, and completion
+history. Before publication, confirm which screenshots, repository details,
+and finance-product information are safe to show.
 
 ### Neko Food House POS and Inventory System
 
@@ -354,6 +357,11 @@ sales and inventory application with automated daily, weekly, monthly, and
 annual reporting, inventory notifications, sound, and dark mode. Cedrick's
 roles included software development, UI/UX design, and debugging. Payment
 features and the exact UI library should be confirmed before publication.
+
+Available project assets include a short login/theme demonstration video and a
+historical team presentation image. A cleaned logo recreation is stored at
+`public/images/neko-food-house-logo-recreated-v1.png`. It must be labeled as a
+recreated project asset rather than an original surviving production file.
 
 ### Maria and I
 
@@ -377,17 +385,18 @@ features and the exact UI library should be confirmed before publication.
 ### Freedom Family Investments
 
 - Live site: <https://freedomfamilyinvestments.com/>
-- Listed by Cedrick as a project worked on.
-- Exact role, contribution, dates, and permission to show visuals need
-  confirmation because these details are not present in the supplied resume.
+- Cedrick's verified contribution: web development and SEO through GodesQ.
+- Confirm which specific pages, changes, results, and client-approved visuals
+  can be published.
 
 ## 12. Public Contact Information
 
 - GitHub: <https://github.com/Ceddy0410>
 - LinkedIn: <https://www.linkedin.com/in/cedrick-opina-53b10a343>
 - Email: <mailto:opinacedrickr@gmail.com>
+- Phone: `+63 969 180 5714`
 
-The physical home address will not appear on the website.
+The physical home address will not appear on the website or public resume.
 
 ## 13. Technical Architecture
 
@@ -513,20 +522,17 @@ Additional requirements:
 
 ## 18. Resume and Image Safety
 
-The supplied resume contains a home address, phone number, and private contact
-details for reference persons. It must not be copied directly into the public
-website.
+A new public-safe resume has been created from the updated information. It
+includes Cedrick's approved phone number and omits his street address and all
+reference persons' private contact details.
 
-Before final release:
+- Editable resume: `output/resume/Cedrick_Opina_Resume.docx`
+- Review PDF: `output/pdf/Cedrick_Opina_Resume.pdf`
+- Website download copy: `public/resume/cedrick-opina-resume.pdf`
+- Profile asset: `public/images/cedrick-opina-profile-v1.png`
 
-- Create a public-safe resume without the home address.
-- Decide whether to publish the phone number.
-- Remove reference persons' phone numbers and email addresses unless they have
-  explicitly approved public publication.
-- Correct spelling and grammar while preserving truthful facts.
-- Review and approve `cedrick-opina-profile-v1.png`. A higher-resolution source
-  photograph can replace it later if Cedrick wants a closer match to the
-  original camera detail.
+The profile portrait uses a cream-to-sage background and can be replaced later
+with a higher-resolution source without changing the page structure.
 
 ## 19. Delivery Phases
 
@@ -534,8 +540,8 @@ Before final release:
 
 - Approve this plan.
 - Resolve the open questions below.
-- Collect approved project screenshots and a profile photo.
-- Produce the public-safe resume.
+- Collect additional approved project screenshots.
+- Review the prepared profile portrait and public-safe resume.
 
 ### Phase 1 - Project foundation
 
@@ -574,22 +580,16 @@ Before final release:
 
 ## 20. Approval Questions
 
-The following details should be confirmed before or during Phase 0:
+The remaining details should be confirmed before or during Phase 0:
 
 1. Should the repository remain `Cedrick-profolio-1`, or should the spelling be
    corrected to `Cedrick-portfolio-1` before more links are shared?
-2. What are the start date, formal title, and current status of the HeyPenny
-   role?
-3. Is the GodesQ part-time role still current? If not, what was the end date?
-4. Was Bemunchie work performed through GodesQ or as a separate position?
-5. What exactly did Cedrick do for Freedom Family Investments?
-6. Which pages or features did Cedrick personally build for Maria and I and SM
+2. Which pages or features did Cedrick personally build for Maria and I and SM
    Home?
-7. Which Penny QA Desk screenshots and repository details can be public?
-8. Is the edited cream-and-sage portrait approved for Version 1, or should its
+3. Which Penny QA Desk screenshots and repository details can be public?
+4. Is the edited cream-and-sage portrait approved for Version 1, or should its
    background/crop be adjusted?
-9. Should the public resume include a phone number, or email only?
-10. Does Cedrick already own a domain, and what is the monthly hosting budget?
+5. Does Cedrick already own a domain, and what is the monthly hosting budget?
 
 ## 21. Definition of Done
 
