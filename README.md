@@ -10,9 +10,12 @@ before implementation begins.
 
 ## Planned stack
 
-- Laravel and PHP
-- React with TypeScript
-- Inertia.js
-- Tailwind CSS
+- Laravel 13 and PHP 8.3+
+- React 19 with JavaScript / JSX
+- Inertia.js 3
+- Tailwind CSS 4
+- Vite
 - MySQL
 
+See [PROJECT_PLAN.md](PROJECT_PLAN.md) for the product, content, design, and
+technical plan.
