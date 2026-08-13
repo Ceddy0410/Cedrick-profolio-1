@@ -1,6 +1,6 @@
 import { Link, usePage } from '@inertiajs/react';
 import { ArrowUpRight, Menu, X } from 'lucide-react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import ThemeToggle from './ThemeToggle';
 import { profile } from '../data/portfolio';
 
@@ -15,6 +15,21 @@ export default function SiteLayout({ children }) {
     const { url } = usePage();
     const [menuOpen, setMenuOpen] = useState(false);
     const active = (href) => href === '/' ? url === '/' : url.startsWith(href);
+
+    useEffect(() => {
+        setMenuOpen(false);
+    }, [url]);
+
+    useEffect(() => {
+        if (!menuOpen) return undefined;
+
+        const closeOnEscape = (event) => {
+            if (event.key === 'Escape') setMenuOpen(false);
+        };
+
+        document.addEventListener('keydown', closeOnEscape);
+        return () => document.removeEventListener('keydown', closeOnEscape);
+    }, [menuOpen]);
 
     return (
         <div className="site-shell">
@@ -38,13 +53,13 @@ export default function SiteLayout({ children }) {
                 <Link className="monogram" href="/" aria-label="Cedrick Opina home">CO<span>.</span></Link>
                 <div className="mobile-actions">
                     <ThemeToggle />
-                    <button className="menu-button" type="button" onClick={() => setMenuOpen(!menuOpen)} aria-expanded={menuOpen} aria-controls="mobile-navigation">
+                    <button className="menu-button" type="button" onClick={() => setMenuOpen(!menuOpen)} aria-expanded={menuOpen} aria-controls="mobile-navigation" aria-label={menuOpen ? 'Close navigation' : 'Open navigation'}>
                         <span className="sr-only">Toggle navigation</span>
                         {menuOpen ? <X /> : <Menu />}
                     </button>
                 </div>
                 {menuOpen && (
-                    <nav className="mobile-nav" id="mobile-navigation">
+                    <nav className="mobile-nav" id="mobile-navigation" aria-label="Mobile navigation">
                         {navigation.map(([label, href]) => <Link key={href} href={href} onClick={() => setMenuOpen(false)} className={active(href) ? 'is-active' : ''}>{label}</Link>)}
                     </nav>
                 )}

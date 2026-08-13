@@ -9,11 +9,20 @@ export default function About() {
             <Head title="About" />
             <section className="page-hero section-pad page-hero--about">
                 <div><p className="eyebrow"><span />About me</p><h1>A developer’s mindset with a tester’s eye.</h1><p>I care about what happens after a page looks finished: whether it works, whether people understand it, and whether the business can keep improving it.</p></div>
-                <img src="/images/cedrick-opina-profile-v1.png" alt="Portrait of Cedrick Opina" />
+                <img
+                    src="/images/cedrick-opina-profile-480.webp"
+                    srcSet="/images/cedrick-opina-profile-480.webp 480w, /images/cedrick-opina-profile-960.webp 960w"
+                    sizes="(max-width: 880px) min(100vw - 36px, 350px), 320px"
+                    width="960"
+                    height="960"
+                    fetchPriority="high"
+                    decoding="async"
+                    alt="Portrait of Cedrick Opina"
+                />
             </section>
             <section className="story-grid section-pad">
                 <div className="section-heading"><p className="kicker">My approach</p><h2>Build carefully. Test honestly. Improve what matters.</h2></div>
-                <div className="story-copy"><p>I’m Cedrick Opina, a BSIT graduate based in Quezon City. My work sits at the intersection of website development, quality assurance, and search improvement.</p><p>That combination helps me see a digital product from more than one angle. I can build and maintain the experience, test the paths users depend on, report what is going wrong clearly, and support practical improvements.</p><p>Today, I test finance mobile and web experiences at HeyPenny while working full-time across website development, QA, SEO, and client support at GodesQ.</p><a className="button button--primary" href="/resume" download>Download résumé <Download size={18} /></a></div>
+                <div className="story-copy"><p>I’m Cedrick Opina, a BSIT graduate based in Quezon City. My work sits at the intersection of website development, quality assurance, and search improvement.</p><p>That combination helps me see a digital product from more than one angle. I can build and maintain the experience, test the paths users depend on, report what is going wrong clearly, and support practical improvements.</p><p>Today, I test finance mobile and web experiences at HeyPenny while working full-time across website development, QA, SEO, and client support at GodesQ.</p><a className="button button--primary" href="/resume" download>Download Resume <Download size={18} /></a></div>
             </section>
             <section className="experience-section section-pad section-surface"><div className="section-heading"><p className="kicker">Experience</p><h2>Where I’m applying the work.</h2></div><div className="timeline">{experience.map((item) => <article key={item.company}><p>{item.period}</p><div><h3>{item.company}</h3><strong>{item.role}</strong><span>{item.description}</span></div></article>)}</div></section>
             <section className="credentials-grid section-pad">

@@ -26,7 +26,16 @@ export default function Home() {
                 </div>
                 <div className="hero-visual" aria-label="Cedrick Opina professional profile">
                     <div className="portrait-frame">
-                        <img src="/images/cedrick-opina-profile-v1.png" alt="Cedrick Opina in professional attire" />
+                        <img
+                            src="/images/cedrick-opina-profile-480.webp"
+                            srcSet="/images/cedrick-opina-profile-480.webp 480w, /images/cedrick-opina-profile-960.webp 960w"
+                            sizes="(max-width: 880px) min(100vw - 36px, 390px), min(29vw, 440px)"
+                            width="960"
+                            height="960"
+                            fetchPriority="high"
+                            decoding="async"
+                            alt="Cedrick Opina in professional attire"
+                        />
                         <div className="portrait-stamp"><CheckCircle2 size={17} /> Quality checked</div>
                     </div>
                     <div className="hero-note"><span>Based in</span><strong>{profile.location}</strong><small>Working across web, mobile, and search</small></div>

@@ -10,10 +10,21 @@
             "use": "@vercel/static"
         }
     ],
+    "regions": ["sin1"],
     "routes": [
         {
+            "src": "/build/(.*)",
+            "dest": "/public/build/$1",
+            "headers": {
+                "cache-control": "public, max-age=31536000, immutable"
+            }
+        },
+        {
             "src": "/images/(.*)",
-            "dest": "/public/images/$1"
+            "dest": "/public/images/$1",
+            "headers": {
+                "cache-control": "public, max-age=31536000, immutable"
+            }
         },
         {
             "src": "/files/(.*)",

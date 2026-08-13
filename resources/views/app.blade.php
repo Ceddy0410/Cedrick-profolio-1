@@ -34,13 +34,8 @@
                 document.documentElement.dataset.theme = savedTheme || (prefersDark ? 'dark' : 'light');
             })();
         </script>
-        @if (env('VERCEL'))
-            <style>{!! Vite::content('resources/css/app.css') !!}</style>
-            <script type="module">{!! Vite::content('resources/js/app.jsx') !!}</script>
-        @else
-            @viteReactRefresh
-            @vite(['resources/css/app.css', 'resources/js/app.jsx'])
-        @endif
+        @viteReactRefresh
+        @vite(['resources/css/app.css', 'resources/js/app.jsx'])
         @inertiaHead
     </head>
     <body>
