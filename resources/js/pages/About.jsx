@@ -1,7 +1,7 @@
 import { Head } from '@inertiajs/react';
-import { Download, GraduationCap, Trophy } from 'lucide-react';
+import { Award, Download, ExternalLink, GraduationCap, Trophy } from 'lucide-react';
 import SiteLayout from '../components/SiteLayout';
-import { experience, skillGroups } from '../data/portfolio';
+import { certificates, experience, skillGroups } from '../data/portfolio';
 
 export default function About() {
     return (
@@ -19,6 +19,34 @@ export default function About() {
             <section className="credentials-grid section-pad">
                 <article><GraduationCap /><p className="kicker">Education</p><h3>Bachelor of Science in Information Technology</h3><span>STI College Fairview · 2021–2025</span></article>
                 <article><Trophy /><p className="kicker">Recognition</p><h3>Programmer of the Year</h3><span>STI · 2024</span><h3>Best Thesis</h3><span>Neko Food House · 2024</span></article>
+            </section>
+            <section className="certificates-section section-pad section-surface">
+                <div className="section-heading">
+                    <p className="kicker">QA credentials</p>
+                    <h2>Formal training in usability testing.</h2>
+                    <p className="section-note">Course certificates covering usability testing foundations, practical techniques, and user-centered quality evaluation.</p>
+                </div>
+                <div className="certificate-grid">
+                    {certificates.map((certificate, index) => (
+                        <article className="certificate-card" key={certificate.credentialId}>
+                            <div className="certificate-card__top">
+                                <span className="certificate-card__number">{String(index + 1).padStart(2, '0')}</span>
+                                <span className="certificate-card__icon"><Award size={21} /></span>
+                            </div>
+                            <p className="certificate-card__issuer">{certificate.issuer}</p>
+                            <h3>{certificate.title}</h3>
+                            <p className="certificate-card__date">Completed {certificate.issued}</p>
+                            <div className="certificate-card__credential">
+                                <span>Credential ID</span>
+                                <code>{certificate.credentialId}</code>
+                            </div>
+                            <div className="certificate-card__actions">
+                                <a className="text-link" href={certificate.verifyUrl} target="_blank" rel="noreferrer">Verify credential <ExternalLink size={15} /></a>
+                                <a className="text-link" href={certificate.fileUrl} download>Download PDF <Download size={15} /></a>
+                            </div>
+                        </article>
+                    ))}
+                </div>
             </section>
             <section className="skills-section section-pad"><div className="section-heading"><p className="kicker">Skills and tools</p><h2>A practical toolkit for building quality.</h2></div><div className="skills-list">{skillGroups.map(([group, list]) => <article key={group}><h3>{group}</h3><p>{list}</p></article>)}</div></section>
         </SiteLayout>

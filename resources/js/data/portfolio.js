@@ -87,6 +87,25 @@ export const skillGroups = [
     ['Tools & data', 'MySQL · Supabase · XAMPP · Git · GitHub · Canva · Figma · Photoshop · Notion · AI-assisted workflows'],
 ];
 
+export const certificates = [
+    {
+        title: 'Foundations of Usability Testing',
+        issuer: 'Board Infinity via Coursera',
+        issued: 'March 30, 2025',
+        credentialId: 'GIEPU4ME24Z0',
+        verifyUrl: 'https://coursera.org/verify/GIEPU4ME24Z0',
+        fileUrl: '/files/certificates/cedrick-opina-foundations-of-usability-testing.pdf',
+    },
+    {
+        title: 'Mastering Usability Testing: Techniques and Best Practices',
+        issuer: 'Board Infinity via Coursera',
+        issued: 'March 30, 2025',
+        credentialId: 'OXI6CMNIZGA1',
+        verifyUrl: 'https://coursera.org/verify/OXI6CMNIZGA1',
+        fileUrl: '/files/certificates/cedrick-opina-mastering-usability-testing.pdf',
+    },
+];
+
 export const clientSites = [
     {
         name: 'Maria and I',
