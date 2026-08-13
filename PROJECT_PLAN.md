@@ -115,6 +115,10 @@ These can be added later without blocking the first release.
 - Detailed tools and technologies.
 - Resume download.
 
+Temporary portrait asset: `public/images/cedrick-opina-profile-v1.png`. It uses
+the supplied portrait with a cream-to-sage background and can be replaced later
+without changing the page structure.
+
 ### `/projects/{slug}` - Project case study
 
 - Project overview and business context.
@@ -513,15 +517,16 @@ The supplied resume contains a home address, phone number, and private contact
 details for reference persons. It must not be copied directly into the public
 website.
 
-Before implementation:
+Before final release:
 
 - Create a public-safe resume without the home address.
 - Decide whether to publish the phone number.
 - Remove reference persons' phone numbers and email addresses unless they have
   explicitly approved public publication.
 - Correct spelling and grammar while preserving truthful facts.
-- Use a higher-resolution original profile photo if available; the embedded
-  resume image is suitable only as a temporary reference.
+- Review and approve `cedrick-opina-profile-v1.png`. A higher-resolution source
+  photograph can replace it later if Cedrick wants a closer match to the
+  original camera detail.
 
 ## 19. Delivery Phases
 
@@ -581,7 +586,8 @@ The following details should be confirmed before or during Phase 0:
 6. Which pages or features did Cedrick personally build for Maria and I and SM
    Home?
 7. Which Penny QA Desk screenshots and repository details can be public?
-8. Is there a higher-resolution profile image available?
+8. Is the edited cream-and-sage portrait approved for Version 1, or should its
+   background/crop be adjusted?
 9. Should the public resume include a phone number, or email only?
 10. Does Cedrick already own a domain, and what is the monthly hosting budget?
 
