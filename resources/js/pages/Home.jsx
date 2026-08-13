@@ -26,7 +26,6 @@ export default function Home() {
                 </div>
                 <div className="hero-visual" aria-label="Cedrick Opina professional profile">
                     <div className="portrait-frame">
-                        <span className="portrait-code">BUILD / TEST / GROW</span>
                         <img src="/images/cedrick-opina-profile-v1.png" alt="Cedrick Opina in professional attire" />
                         <div className="portrait-stamp"><CheckCircle2 size={17} /> Quality checked</div>
                     </div>
