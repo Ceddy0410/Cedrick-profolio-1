@@ -88,8 +88,28 @@ export const skillGroups = [
 ];
 
 export const clientSites = [
-    ['Maria and I', 'https://mariaandi.com/'],
-    ['Go To SHOUT', 'https://gotoshout.com/'],
-    ['Freedom Family Investments', 'https://freedomfamilyinvestments.com/'],
-    ['ProAge Beauty', 'https://proagebeauty.ph/'],
+    {
+        name: 'Maria and I',
+        url: 'https://mariaandi.com/',
+        domain: 'mariaandi.com',
+        services: ['Website development', 'Responsive QA'],
+    },
+    {
+        name: 'Go To SHOUT',
+        url: 'https://gotoshout.com/',
+        domain: 'gotoshout.com',
+        services: ['Quality assurance', 'SEO support'],
+    },
+    {
+        name: 'Freedom Family Investments',
+        url: 'https://freedomfamilyinvestments.com/',
+        domain: 'freedomfamilyinvestments.com',
+        services: ['Web development', 'SEO'],
+    },
+    {
+        name: 'ProAge Beauty',
+        url: 'https://proagebeauty.ph/',
+        domain: 'proagebeauty.ph',
+        services: ['Quality assurance', 'SEO support'],
+    },
 ];
