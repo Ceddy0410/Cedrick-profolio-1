@@ -260,21 +260,14 @@ Only verified and approved claims will be published.
 
 ### GodesQ Digital Marketing Services
 
-**Website Developer, QA & SEO Specialist - June 2025 to present**
+**Website Developer, QA & SEO Specialist - Jan 2024 to Apr 2024**
 
-- Started part-time on June 1, 2025.
-- Transitioned to full-time employment on July 30, 2025.
-- Develop and maintain client websites using WordPress and Elementor, support
-  Shopify updates, and troubleshoot frontend issues.
-- Perform functional, responsive, UI/UX, and performance QA.
-- Support technical and on-page SEO with Semrush, including site audits,
-  keyword checks, issue diagnosis, and content recommendations.
-- Handle website and support work for Bemunchie as a GodesQ client.
-- Perform web development and SEO work for Freedom Family Investments as a
-  GodesQ client.
+- Develop and maintain client websites using WordPress and Elementor, contribute to Shopify updates, and troubleshoot frontend issues.
+- Perform functional, responsive, UI/UX, and performance QA for client websites and digital experiences.
+- Support technical and on-page SEO with Semrush, including site audits, keyword checks, issue diagnosis, and content recommendations.
+- Handle client work for Bemunchie and Freedom Family Investments, alongside projects including Maria and I, Go To SHOUT, and ProAge Beauty.
 
-Bemunchie and Freedom Family Investments must be presented as client work
-completed through GodesQ, not as separate employment.
+Bemunchie and Freedom Family Investments are presented as client work completed through GodesQ.
 
 ### Selected client work through GodesQ
 
@@ -282,30 +275,26 @@ completed through GodesQ, not as separate employment.
 - Go To SHOUT: <https://gotoshout.com/>
 - Freedom Family Investments: <https://freedomfamilyinvestments.com/>
 - ProAge Beauty: <https://proagebeauty.ph/>
-
-The case studies must identify Cedrick's contribution without implying sole
-ownership of an agency or team project.
+- Bemunchie: <https://bemunchieonline.co.uk/>
 
 ## 9. Education, Awards, and Certifications
 
 ### Education
 
-- Bachelor of Science in Information Technology, STI College Fairview,
-  2021-2025.
-- Senior High School, Our Lady of Fatima University, 2019-2021.
+- Bachelor of Science in Information Technology, STI College Fairview, 2021-2025 (GWA: 1.85).
 
 ### Featured recognition
 
 - STI Programmer of the Year, 2024.
-- Best Thesis, 2024 - Neko Food House computerized sales and inventory system.
+- Best in Thesis, 2024 - Neko Food House POS & Inventory System.
 
-### Certifications and coursework from the resume
+### Certifications and coursework
 
-- System Administration, 2022.
 - Java Foundation, 2022.
+- System Administration, 2022.
 - SAP Business, 2022.
 - SAP Advanced, 2023.
-- Foundations of Usability Testing, 2025.
+- Foundation of Usability Testing, 2025.
 - Mastering Usability Testing: Techniques and Best Practices, 2025.
 
 Certificate issuers and exact certificate titles should be verified before

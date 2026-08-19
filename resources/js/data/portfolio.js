@@ -6,6 +6,7 @@ export const profile = {
     phone: '+63 969 180 5714',
     github: 'https://github.com/Ceddy0410',
     linkedin: 'https://www.linkedin.com/in/cedrick-opina-53b10a343',
+    gwa: '1.85',
 };
 
 export const capabilities = [
@@ -34,34 +35,45 @@ export const capabilities = [
 
 export const projects = [
     {
+        slug: 'finance-tracker',
+        type: 'Personal web app',
+        title: 'Finance Tracker',
+        summary: 'A real-time shared and personal finance hub built with React and Supabase for tracking expenses, budgets, and collaborative financial goals.',
+        contribution: 'Full-stack application development, Supabase backend & auth integration, real-time sync, and UI/UX design.',
+        tools: ['React', 'Supabase', 'Vite', 'Tailwind CSS'],
+        accent: 'mint',
+        status: 'Built · Live · 2026',
+        liveUrl: 'https://ced-finance.pages.dev/',
+    },
+    {
         slug: 'penny-qa-desk',
-        type: 'Personal product',
-        title: 'Penny QA Desk',
-        summary: 'A focused QA workspace for planning tests, tracking issues, and keeping Penny mobile and web checks visible from start to finish.',
+        type: 'Personal project',
+        title: 'QA Desk',
+        summary: 'Built a QA task-management and tracking workspace for Penny mobile and web testing, organizing checks, bug reports, and completion history.',
         contribution: 'Product concept, Flutter development, task workflow, interface direction, and implementation.',
         tools: ['Flutter', 'Laravel', 'React', 'QA workflows'],
         accent: 'mint',
-        status: 'Built · Tested',
+        status: 'Built · Tested · 2026',
     },
     {
         slug: 'neko-food-house',
         type: 'Team capstone',
-        title: 'Neko Food House',
-        summary: 'A computerized POS and inventory system supporting sales, stock visibility, automated reports, alerts, and light/dark login themes.',
+        title: 'Neko Food House POS & Inventory System',
+        summary: 'Contributed to C# development, UI/UX design, and debugging for a computerized sales and inventory system with automated reporting, alerts, and light/dark login themes.',
         contribution: 'C# development, UI/UX design, and debugging as part of the capstone team.',
         tools: ['C#', 'UI/UX', 'Inventory'],
         accent: 'cream',
-        status: 'Designed · Developed',
+        status: 'Designed · Developed · 2023–2024',
     },
     {
         slug: 'godesq-client-work',
         type: 'Agency client work',
         title: 'Web, QA & SEO work',
-        summary: 'Website development, quality reviews, technical support, and search improvements for client businesses through GodesQ.',
+        summary: 'WordPress and Elementor development, Shopify updates, functional/responsive/performance QA, and Semrush-supported SEO across agency clients.',
         contribution: 'WordPress and Elementor development, responsive QA, troubleshooting, and Semrush-supported SEO.',
         tools: ['WordPress', 'Elementor', 'Semrush'],
         accent: 'forest',
-        status: 'Built · Improved',
+        status: 'Built · Improved · 2024',
     },
 ];
 
@@ -69,27 +81,58 @@ export const experience = [
     {
         period: 'Nov 2025 — Present',
         company: 'HeyPenny',
-        role: 'Quality Assurance Tester · Part-time',
-        description: 'Testing a finance mobile application and web platform through functional, regression, responsive, and UI/UX scenarios, with repeatable Maestro automation flows.',
+        role: 'Quality Assurance Tester (Part-time)',
+        description: 'Test the Penny finance mobile application and web platform across functional, regression, responsive, and UI/UX scenarios. Create repeatable Maestro automation flows for key finance workflows and document defects with clear reproduction steps.',
     },
     {
-        period: 'Jun 2025 — Present',
+        period: 'Jan 2024 — Apr 2024',
         company: 'GodesQ Digital Marketing Services',
         role: 'Website Developer, QA & SEO Specialist',
-        description: 'Started part-time on June 1, 2025 and transitioned to full-time on July 30, 2025. Develops and improves client sites while supporting QA, SEO, and troubleshooting.',
+        description: 'Developed and maintained client websites with WordPress and Elementor, contributed to Shopify updates, and performed functional, responsive, UI/UX, and performance QA. Supported technical and on-page SEO with Semrush, including site audits and keyword checks, handling client work for Bemunchie, Freedom Family Investments, Maria and I, Go To SHOUT, and ProAge Beauty.',
     },
 ];
 
 export const skillGroups = [
-    ['Development', 'PHP · Laravel · JavaScript · React · Flutter · HTML · CSS · WordPress · Elementor · Shopify · C# · Java'],
-    ['Quality', 'Manual · Functional · Regression · Responsive · UI/UX · Test cases · Bug reporting · Maestro · Playwright · Jira'],
-    ['SEO & support', 'Semrush · Technical SEO · On-page SEO · Keyword research · Site audits · Troubleshooting · Client support'],
-    ['Tools & data', 'MySQL · Supabase · XAMPP · Git · GitHub · Canva · Figma · Photoshop · Notion · AI-assisted workflows'],
+    ['Development', 'PHP · Laravel · JavaScript · React · HTML · CSS · WordPress · Elementor · Shopify · C# · Java · OOP & Data Structures'],
+    ['QA & Automation', 'Manual Testing · Functional Testing · Regression Testing · UI/UX & Usability Testing · Responsive Testing · Test Case Design · Bug Reporting · Maestro · Playwright · Jira'],
+    ['SEO & Support', 'Semrush · Technical SEO · On-Page SEO · Keyword Research · Site Audits · Website Troubleshooting · Client Support'],
+    ['Tools & Data', 'MySQL · Supabase · XAMPP · Git · GitHub · Canva · Figma · Photoshop · Notion · AI-assisted development and testing workflows'],
+];
+
+export const academicCertifications = [
+    {
+        title: 'Java Foundation',
+        issuer: 'STI College Fairview',
+        year: '2022',
+        description: 'Completed Java course at STI College Fairview for enhancing data structure and OOP.',
+        badge: 'OOP & Data Structures',
+    },
+    {
+        title: 'System Administration',
+        issuer: 'STI College Fairview',
+        year: '2022',
+        description: 'Maintaining computer systems, servers, and networks for efficient and reliability.',
+        badge: 'Systems & Networks',
+    },
+    {
+        title: 'SAP Business',
+        issuer: 'STI College Fairview',
+        year: '2022',
+        description: 'Completed the Financial accounting for updating ledgers and creating orders.',
+        badge: 'ERP & Financials',
+    },
+    {
+        title: 'SAP Advanced',
+        issuer: 'STI College Fairview',
+        year: '2023',
+        description: 'Updating customer demands and creating the delivery, warehouse, invoice creation.',
+        badge: 'Supply Chain & Invoicing',
+    },
 ];
 
 export const certificates = [
     {
-        title: 'Foundations of Usability Testing',
+        title: 'Foundation of Usability Testing',
         issuer: 'Board Infinity via Coursera',
         issued: 'March 30, 2025',
         credentialId: 'GIEPU4ME24Z0',
@@ -130,5 +173,11 @@ export const clientSites = [
         url: 'https://proagebeauty.ph/',
         domain: 'proagebeauty.ph',
         services: ['Quality assurance', 'SEO support'],
+    },
+    {
+        name: 'Bemunchie',
+        url: 'https://bemunchieonline.co.uk/',
+        domain: 'bemunchieonline.co.uk',
+        services: ['Website support', 'Client QA'],
     },
 ];
