@@ -18,7 +18,7 @@ class PortfolioPagesTest extends TestCase
 
     public function test_known_project_pages_are_available_and_unknown_projects_return_404(): void
     {
-        foreach (['penny-qa-desk', 'neko-food-house', 'godesq-client-work'] as $slug) {
+        foreach (['finance-tracker', 'penny-qa-desk', 'neko-food-house', 'godesq-client-work'] as $slug) {
             $this->get("/projects/{$slug}")->assertOk();
         }
 

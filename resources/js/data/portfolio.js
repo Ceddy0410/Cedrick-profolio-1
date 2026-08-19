@@ -94,9 +94,9 @@ export const experience = [
 
 export const skillGroups = [
     ['Development', 'PHP · Laravel · JavaScript · React · HTML · CSS · WordPress · Elementor · Shopify · C# · Java · OOP & Data Structures'],
-    ['QA & Automation', 'Manual Testing · Functional Testing · Regression Testing · UI/UX & Usability Testing · Responsive Testing · Test Case Design · Bug Reporting · Maestro · Playwright · Jira'],
+    ['QA & Automation', 'Manual Testing · Functional Testing · Regression Testing · UI/UX & Usability Testing · Responsive Testing · Test Case Design · Bug Reporting · Maestro · Playwright · CI/CD Pipelines · GitHub Actions · Jira'],
     ['SEO & Support', 'Semrush · Technical SEO · On-Page SEO · Keyword Research · Site Audits · Website Troubleshooting · Client Support'],
-    ['Tools & Data', 'MySQL · Supabase · XAMPP · Git · GitHub · Canva · Figma · Photoshop · Notion · AI-assisted development and testing workflows'],
+    ['Tools & Data', 'MySQL · Supabase · XAMPP · Git · GitHub · CI/CD · Canva · Figma · Photoshop · Notion · AI-assisted development and testing workflows'],
 ];
 
 export const academicCertifications = [
