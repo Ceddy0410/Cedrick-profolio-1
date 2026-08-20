@@ -38,9 +38,9 @@ Route::get('/projects/{slug}', function (string $slug) {
         'godesq-client-work' => [
             'slug' => 'godesq-client-work', 'type' => 'Agency client work', 'title' => 'Web, QA & SEO work', 'accent' => 'forest',
             'summary' => 'WordPress and Elementor development, Shopify updates, functional/responsive/performance QA, and Semrush-supported SEO across agency clients.',
-            'contribution' => 'WordPress and Elementor development, responsive QA, troubleshooting, and Semrush-supported SEO.', 'tools' => ['WordPress', 'Elementor', 'Semrush'], 'status' => 'Built · Improved · 2024',
+            'contribution' => 'WordPress and Elementor development, responsive QA, troubleshooting, and Semrush-supported SEO.', 'tools' => ['WordPress', 'Elementor', 'Semrush'], 'status' => 'Active client work · 2025–Present',
             'heading' => 'Supporting client websites from implementation through improvement.',
-            'body' => ['At GodesQ, my work crossed website development, QA, SEO, and client support (Jan 2024 – Apr 2024). I developed and maintained WordPress and Elementor experiences, contributed to Shopify updates, performed functional, responsive, UI/UX, and performance QA, and supported technical and on-page SEO with Semrush.', 'Handled client work for Bemunchie and Freedom Family Investments, alongside projects including Maria and I, Go To SHOUT, and ProAge Beauty.'],
+            'body' => ['I joined GodesQ part-time on June 1, 2025 and transitioned to full-time on July 30, 2025. My work crosses website development, QA, SEO, and client support. I develop and maintain WordPress and Elementor experiences, contribute to Shopify updates, perform functional, responsive, UI/UX, and performance QA, and support technical and on-page SEO with Semrush.', 'I handle Bemunchie and Freedom Family Investments as GodesQ client work, alongside projects including Maria and I, Go To SHOUT, and ProAge Beauty.'],
             'highlights' => ['Develop and maintain WordPress and Elementor pages, with Shopify updates.', 'Test functionality, responsiveness, usability, and performance across releases.', 'Use Semrush for audits, keyword checks, issue diagnosis, and content recommendations.', 'Handle client engagements for Bemunchie, Freedom Family Investments, Maria and I, Go To SHOUT, and ProAge Beauty.'],
         ],
     ];

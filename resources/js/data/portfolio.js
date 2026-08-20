@@ -73,7 +73,7 @@ export const projects = [
         contribution: 'WordPress and Elementor development, responsive QA, troubleshooting, and Semrush-supported SEO.',
         tools: ['WordPress', 'Elementor', 'Semrush'],
         accent: 'forest',
-        status: 'Built · Improved · 2024',
+        status: 'Active client work · 2025–Present',
     },
 ];
 
@@ -85,10 +85,10 @@ export const experience = [
         description: 'Test the Penny finance mobile application and web platform across functional, regression, responsive, and UI/UX scenarios. Create repeatable Maestro automation flows for key finance workflows and document defects with clear reproduction steps.',
     },
     {
-        period: 'Jan 2024 — Apr 2024',
+        period: 'Jun 2025 — Present',
         company: 'GodesQ Digital Marketing Services',
-        role: 'Website Developer, QA & SEO Specialist',
-        description: 'Developed and maintained client websites with WordPress and Elementor, contributed to Shopify updates, and performed functional, responsive, UI/UX, and performance QA. Supported technical and on-page SEO with Semrush, including site audits and keyword checks, handling client work for Bemunchie, Freedom Family Investments, Maria and I, Go To SHOUT, and ProAge Beauty.',
+        role: 'Web Support & Quality Analyst',
+        description: 'Joined part-time on June 1, 2025 and transitioned to full-time on July 30, 2025. Develop and maintain client websites with WordPress and Elementor, contribute to Shopify updates, and perform functional, responsive, UI/UX, and performance QA. Support technical and on-page SEO with Semrush, including site audits and keyword checks, while handling client work for Bemunchie, Freedom Family Investments, Maria and I, Go To SHOUT, and ProAge Beauty.',
     },
 ];
 

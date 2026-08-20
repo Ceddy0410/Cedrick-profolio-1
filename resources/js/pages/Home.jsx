@@ -1,6 +1,7 @@
 import { Head, Link } from '@inertiajs/react';
 import { ArrowDown, ArrowRight, ArrowUpRight, Braces, CheckCircle2, ShieldCheck, TrendingUp } from 'lucide-react';
 import SiteLayout from '../components/SiteLayout';
+import ToolsSkillsSection from '../components/ToolsSkillsSection';
 import { capabilities, experience, profile, projects } from '../data/portfolio';
 
 const capabilityIcons = {
@@ -63,6 +64,8 @@ export default function Home() {
                     })}
                 </div>
             </section>
+
+            <ToolsSkillsSection />
 
             <section className="work-section section-pad">
                 <div className="section-heading section-heading--row"><div><p className="kicker">Selected work</p><h2>Projects shaped by curiosity and care.</h2></div><Link className="text-link" href="/projects">See all projects <ArrowRight size={17} /></Link></div>
